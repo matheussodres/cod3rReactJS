@@ -1,20 +1,24 @@
 .Card {
-  margin: 20px;
-  border: 3px solid #000;
-  border-radius: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
 
-  font-size: 1.4rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #000;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
 }
 
-.Card .Conteudo {
-  padding: 15px 0px;
-  color: #000;
+.Card .Title {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
 }
-.Card .Footer {
-  border-top: 1px solid #fff;
-  padding: 5px 0px;
+
+.Card .Content {
+    flex-grow: 1;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
 }
